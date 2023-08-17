@@ -14,7 +14,7 @@ Este é um projeto simples de CRUD (Create, Read, Update, Delete) em Flask com i
 1. Clone este repositório para sua máquina local:
 
 ```sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/leocalheiros/crud-mysql.git
 ```
 
 2.Instale as dependências:
