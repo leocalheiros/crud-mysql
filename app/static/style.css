@@ -43,6 +43,11 @@ button {
     cursor: pointer;
 }
 
+.delete-button{
+    margin-left: 15px
+
+}
+
 .message {
     margin-top: 10px;
     color: #ff0000;

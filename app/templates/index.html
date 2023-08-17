@@ -23,6 +23,18 @@
         {% if message %}
         <p class="message">{{ message }}</p>
         {% endif %}
+
+        <!-- Lista de usuários -->
+        <h2>Lista de Usuários</h2>
+        <ul id="user-list">
+        {% for usuario in usuarios %}
+        <li>
+            <span>{{ usuario.nome }} - {{ usuario.email }}</span>
+            <button class="delete-button" data-id="{{ usuario.id }}">Deletar</button>
+        </li>
+        {% endfor %}
+        </ul>
     </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
