@@ -1,6 +1,6 @@
 # CRUD em Flask - Documentação
 
-Este é um projeto simples de CRUD (Create, Read, Update, Delete) em Flask com integração de banco de dados MySQL (persistência de dados).
+Este é um projeto simples de CRUD (Create, Read, Update, Delete) em Flask com integração de banco de dados MySQL (persistência de dados). Também possuímos uma interface de site para realizar o cadastro, exclusão e ver a lista de usuários cadastrados no CRUD.
 
 ## Requisitos
 
@@ -24,8 +24,9 @@ pip install -r requirements.txt
 
 3.Configure o banco de dados na máquina:
 ```
-Crie um banco de dados MySQL chamado 'crud'.
+Importe o banco de dados chamado 'crud' como exemplo.
 Abra o arquivo app.py e atualize a configuração SQLALCHEMY_DATABASE_URI para corresponder às suas configurações do MySQL.
+
 ```
 
 
